@@ -16,7 +16,7 @@ switch (true){
     nivel = "Ascendente"
     break
 
-	case xp>7000:
+    case xp>7000:
     nivel = "Platina"
     break
     
@@ -32,7 +32,8 @@ switch (true){
     nivel = "Bronze"
     break
     
-	default:
+    default:
     nivel = "Ferro" 
-    
-console.log("A heroína de nome " + heroina + " está no nível de " + nivel)
+}
+
+console.log("A heroína de nome " + heroina + " está no nível " + nivel)
